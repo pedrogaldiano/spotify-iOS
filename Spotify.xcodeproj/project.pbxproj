@@ -29,6 +29,7 @@
 		4E78B32327554C750099A84F /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E78B32227554C750099A84F /* AudioTrack.swift */; };
 		4E78B32527554C7B0099A84F /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E78B32427554C7B0099A84F /* Artist.swift */; };
 		4E78B32727554C880099A84F /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E78B32627554C880099A84F /* UserProfile.swift */; };
+		4E78B329275648B00099A84F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E78B328275648B00099A84F /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		4E78B32227554C750099A84F /* AudioTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
 		4E78B32427554C7B0099A84F /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		4E78B32627554C880099A84F /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		4E78B328275648B00099A84F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				4E78B2E927553EEF0099A84F /* AppDelegate.swift */,
 				4E78B2EB27553EEF0099A84F /* SceneDelegate.swift */,
 				4E78B2F227553EF10099A84F /* Assets.xcassets */,
+				4E78B328275648B00099A84F /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -157,8 +160,8 @@
 		4E78B30A27554B4E0099A84F /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				4E78B2ED27553EEF0099A84F /* HomeViewController.swift */,
 				4E78B30427554B100099A84F /* TabBarViewController.swift */,
+				4E78B2ED27553EEF0099A84F /* HomeViewController.swift */,
 				4E78B30627554B2F0099A84F /* SearchViewController.swift */,
 				4E78B30827554B400099A84F /* LibraryViewController.swift */,
 			);
@@ -262,6 +265,7 @@
 				4E78B2EA27553EEF0099A84F /* AppDelegate.swift in Sources */,
 				4E78B30927554B400099A84F /* LibraryViewController.swift in Sources */,
 				4E78B32727554C880099A84F /* UserProfile.swift in Sources */,
+				4E78B329275648B00099A84F /* Extensions.swift in Sources */,
 				4E78B31727554BCC0099A84F /* PlaylistViewController.swift in Sources */,
 				4E78B32527554C7B0099A84F /* Artist.swift in Sources */,
 				4E78B2EC27553EEF0099A84F /* SceneDelegate.swift in Sources */,

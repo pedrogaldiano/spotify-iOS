@@ -23,7 +23,6 @@ final class AuthManager {
         let base = "https://accounts.spotify.com/authorize"
         let string = "\(base)?response_type=code&client_id=\(Constants.clientID)&scope=\(scope)&redirect_uri=\(redirectURI)&show_dialog=TRUE"
         
-        print("\n\n\n\(string)\n\n\n")
         return URL(string: string)
     }
     
@@ -62,14 +61,11 @@ final class AuthManager {
         
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
-        request.setValue("application/x-www-form-urlenconded ", forHTTPHeaderField: "Content-Type")
+        request.setValue("application/x-www-form-urlencoded ", forHTTPHeaderField: "Content-Type")
         request.httpBody = components.query?.data(using: .utf8)
         
         let basicToken = Constants.clientID+":"+Constants.clientSecret
-        print("\n\n\nbasicToken: \(basicToken)\n\n\n")
-        
         let data = basicToken.data(using: .utf8)
-        print("\n\n\ndata: \(data!)\n\n\n")
         
         guard let base64String = data?.base64EncodedString() else {
             print("Fail to get the base64String")
@@ -86,7 +82,6 @@ final class AuthManager {
                   }
             
             do {
-                print("\n\n\n\(data)\n\n\n")
                 let json = try JSONSerialization.jsonObject(with: data, options: .allowFragments)
                 print("sucess: \(json)")
                 completion(true)

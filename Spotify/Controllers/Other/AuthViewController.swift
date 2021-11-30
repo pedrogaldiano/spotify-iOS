@@ -8,7 +8,7 @@
 import UIKit
 import WebKit
 
-class AuthViewController: UIViewController, WKNavigationDelegate {
+class AuthViewController: UIViewController, WKNavigationDelegate{
 
     private let webView: WKWebView = {
         let prefs = WKWebpagePreferences()
@@ -48,6 +48,7 @@ class AuthViewController: UIViewController, WKNavigationDelegate {
         guard let code = urlComponents?.queryItems?.first(where: { $0.name == "code" } )?.value else { return }
         
         webView.isHidden = true
+//        webView.load(URLRequest(url: url))
         
         print("\n\ncode: \(code)\n\n")
         

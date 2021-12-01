@@ -26,8 +26,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             window.rootViewController = navWelcome
         }
         
-        self.window = window
         window.makeKeyAndVisible()
+        self.window = window
+        
+        AuthManager.shared.refreshTokenIfNeeded() {
+            sucess in
+            print(sucess)
+        }
         
         return true
     }

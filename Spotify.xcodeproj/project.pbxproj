@@ -30,6 +30,7 @@
 		4E78B32527554C7B0099A84F /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E78B32427554C7B0099A84F /* Artist.swift */; };
 		4E78B32727554C880099A84F /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E78B32627554C880099A84F /* UserProfile.swift */; };
 		4E78B329275648B00099A84F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E78B328275648B00099A84F /* Extensions.swift */; };
+		4EDC6DCA2756F0F6009B057E /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDC6DC92756F0F6009B057E /* AuthResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		4E78B32427554C7B0099A84F /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		4E78B32627554C880099A84F /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		4E78B328275648B00099A84F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4EDC6DC92756F0F6009B057E /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 				4E78B32227554C750099A84F /* AudioTrack.swift */,
 				4E78B32427554C7B0099A84F /* Artist.swift */,
 				4E78B32627554C880099A84F /* UserProfile.swift */,
+				4EDC6DC92756F0F6009B057E /* AuthResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				4E78B30527554B100099A84F /* TabBarViewController.swift in Sources */,
 				4E78B2EE27553EEF0099A84F /* HomeViewController.swift in Sources */,
 				4E78B31F27554C4E0099A84F /* HapitcsManager.swift in Sources */,
+				4EDC6DCA2756F0F6009B057E /* AuthResponse.swift in Sources */,
 				4E78B32327554C750099A84F /* AudioTrack.swift in Sources */,
 				4E78B30D27554B810099A84F /* AuthViewController.swift in Sources */,
 				4E78B2EA27553EEF0099A84F /* AppDelegate.swift in Sources */,
